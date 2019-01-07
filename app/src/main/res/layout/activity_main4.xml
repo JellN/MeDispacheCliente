@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:padding="8dp"
-    tools:context=".fragments.ProfileFragment">
+    tools:context=".Main4Activity">
+
 
     <android.support.v7.widget.CardView
         android:layout_width="371dp"
@@ -16,7 +16,7 @@
 
         <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:padding="8dp"
 
 
@@ -71,42 +71,5 @@
                 />
         </RelativeLayout>
     </android.support.v7.widget.CardView>
-    <RelativeLayout
-        android:id="@+id/attuser"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentStart="true"
-        android:background="#fff"
-        android:padding="5dp"
-        android:layout_alignParentLeft="true">
-
-        <EditText
-            android:id="@+id/mudarnome"
-            android:layout_centerVertical="true"
-            android:layout_toLeftOf="@+id/btn_send"
-            android:layout_width="match_parent"
-            android:background="@android:color/transparent"
-            android:hint="alterar nome"
-            android:layout_height="wrap_content" />
-
-        <ImageButton
-            android:id="@+id/botaoatt"
-            android:layout_width="40dp"
-            android:layout_height="40dp"
-            android:layout_alignParentRight="true"
-            android:layout_alignParentEnd="true"
-            android:background="@drawable/send"/>
-
-        <ImageButton
-            android:id="@+id/botaocancela"
-            android:layout_width="40dp"
-            android:layout_height="40dp"
-            android:layout_alignParentRight="true"
-            android:layout_marginRight="50dp"
-            android:layout_alignParentEnd="true"
-            android:background="@drawable/deletar"/>
-    </RelativeLayout>
-
 
 </RelativeLayout>
